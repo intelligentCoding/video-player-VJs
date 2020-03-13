@@ -28,6 +28,7 @@ h1 {
 }
 
 .controls {
+	width: 50%;
 	background: #e62739;
 	color: white;
 	border-bottom-left-radius: 10px;
@@ -44,6 +45,24 @@ h1 {
 	cursor: pointer;
 }
 
+.controls .fa-play {
+	color: #fbf579;
+}
+.controls .fa-stop {
+	color: #DCAE1D ;
+}
+.controls .fa-stop {
+	color: white ;
+}
+
+.btn:focus{
+	outline: 0;
+}
+.control .timestamp{
+	color: white;
+	font-weight: bold;
+	margin-left: 10px;
+}
 @media (max-width: 800px){
 	.screen .controls {
 		width: 90%;
